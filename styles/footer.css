@@ -1,0 +1,37 @@
+.footer-content-box{
+    margin: 2em auto;
+}
+
+.footer-content-box>h3,li{
+    display: inline-block;
+}
+
+.footer-content-box>h3{
+    margin-left: 1em;
+    opacity: .8;
+}
+
+.social-list{
+    float: right;
+}
+
+.social-icon{
+    display: inline;
+    border-radius: 7px;
+    margin-right: .5em;
+    padding: .1em .2em;
+    width: 3em;
+    vertical-align: middle;
+    
+}
+
+.social-icon:hover{
+    background-color: #7f7f7f;
+    transition: all 1s;
+}
+
+.social-media{
+    margin: 0 2em;
+    opacity: .8;
+    
+}
