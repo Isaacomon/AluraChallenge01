@@ -21,3 +21,33 @@
     float: right;
     margin-left: 1em;
 }
+
+@media (min-width: 375px) and (max-width: 768px){
+    .header-box{
+        text-align: center;
+    }
+.header-logo{
+    float: left;
+}
+
+    .header-title{
+        float: none;
+        padding-top: .3em;
+    }
+}
+
+@media (max-width: 375px){
+    .header-box{
+        margin-bottom: 3em;
+    }
+    
+.header-logo{
+    float: left;
+}
+    .header-title{
+        display: none;
+    }
+    .header-box > hr{
+       display: none; 
+    }
+}

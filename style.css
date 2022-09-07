@@ -78,7 +78,7 @@ body{
 
 #desencriptar{
     color: #0A3871;
-    background-color: #D8DFE8;
+    background-color: #fff;
 }
 
 #desencriptar:hover{
@@ -87,13 +87,65 @@ body{
 }
 
 .side{
-    width: 35%;
+    width: 40%;
     float: right;
+    text-align: center;
     /*border: 1px solid #000;*/
     /*border-radius: 10px;*/
     /*padding: 1.5em;*/
 }
 
-.side > h3, p{
-    margin: 1em;
+.side-top{
+    margin-top: 1.25em;
+}
+
+#copiar{
+    display: none;
+    color: #0A3871;
+    background-color: #fff;
+}
+
+#copiar:hover{
+    background-color: #53739B;
+    transition: all 1s;
+}
+
+
+@media /*(min-width: 375px) and*/ (max-width: 768px){
+    .content-boxes{
+        padding: 1.5em;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .encryptor, .side{
+        border: 1px solid #000;
+        border-radius: 10px;
+        display: block;
+        margin: 1em 0;
+        padding: 1.5em;
+    }
+
+    .encryptor{
+        text-align: center;
+        width: 100%;
+    }
+    .encrypt-button{
+        padding: 0.5em;
+        margin: 1em 0;
+        border: 2px solid #0A3871;
+        border-radius: 10px;
+        font-weight: bold;
+    }
+    .side{
+        width: 100%;
+        float: none;
+        text-align: center;
+        /*border: 1px solid #000;*/
+        /*border-radius: 10px;*/
+        /*padding: 1.5em;*/
+    }
+    #copiar{
+        display: none;
+    }
 }
